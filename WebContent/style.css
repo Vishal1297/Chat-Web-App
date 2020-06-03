@@ -1,0 +1,95 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 90%;
+	background-color: #1f1f1f;
+}
+
+button, input {
+	margin: 0;
+	width: 99%;
+	font-size: 1.2em;
+	padding: 15px;
+	outline: none;
+}
+
+textarea {
+	resize: none;
+	width: 100%;
+	padding: 30px 20px;
+}
+
+header, footer {
+	text-align: center;
+}
+
+header {
+	width: 100%;
+	height: 50px;
+}
+
+footer {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+
+footer p {
+	text-align: center;
+}
+
+#wrapper {
+	width: 75%;
+	margin: 40px auto;
+	text-align: left;
+	color: #d9d9d9;
+}
+
+table {
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+table caption {
+	color: white;
+	font-size: 2em;
+	letter-spacing: 2px;
+}
+
+p {
+	text-align: left;
+}
+
+input {
+	margin: 10px auto;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	box-shadow: none;
+	border: none;
+}
+
+button {
+	display: inline;
+	color: #fff;
+	background-color: #f2791d;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	box-shadow: none;
+	border: none;
+}
+
+button:hover {
+	background-color: #ffb15e;
+}
+
+button a, a:visited, a:hover, a:active {
+	color: #fff;
+	text-decoration: none;
+}
